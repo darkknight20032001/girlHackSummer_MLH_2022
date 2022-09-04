@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15a324ef.css",
+    "main.js": "/static/js/main.712cd5f9.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/womenswayam.jpg": "/static/media/womenswayam.675c7235c0902c0e4a8f.jpg",
+    "static/media/genderneutral.jpg": "/static/media/genderneutral.f48bf6ee2d32be12ba03.jpg",
+    "static/media/genderequality.jpg": "/static/media/genderequality.0ab851886e9d13b2c9d0.jpg",
+    "static/media/giphy.gif": "/static/media/giphy.932fa30c4af75af97ac2.gif",
+    "static/media/cab.jpg": "/static/media/cab.ad842a1c9965cfcb8eea.jpg",
+    "static/media/women_power.jpg": "/static/media/women_power.c4241fd97057b6a685e3.jpg",
+    "static/media/auto.jpg": "/static/media/auto.2a6e29878b7f5c44f5aa.jpg",
+    "static/media/swadhargreh.jpg": "/static/media/swadhargreh.061fa99fd1d8535de830.jpg",
+    "static/media/complaint.jpg": "/static/media/complaint.eed3e2f47dd702626265.jpg",
+    "static/media/logo.jpg": "/static/media/logo.749a92972d59c842b35f.jpg",
+    "static/media/women_travel.jpg": "/static/media/women_travel.80e3ca9ff223092bd364.jpg",
+    "static/media/userlogo.jpg": "/static/media/userlogo.edbb81051a387d866df6.jpg",
+    "static/media/busSchool.png": "/static/media/busSchool.cc02e5d5dcc5ee8abebb.png",
+    "static/media/ujjwala.jpg": "/static/media/ujjwala.cce8cd0af328e37b37db.jpg",
+    "static/media/bbbp.jpg": "/static/media/bbbp.19f349768ff00ec50d16.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.15a324ef.css.map": "/static/css/main.15a324ef.css.map",
+    "main.712cd5f9.js.map": "/static/js/main.712cd5f9.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15a324ef.css",
+    "static/js/main.712cd5f9.js"
+  ]
+}
