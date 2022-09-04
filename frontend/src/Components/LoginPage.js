@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
-import women_gif from "../images/women_gif.gif";
+import giphy from "../images/giphy.gif";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -95,7 +95,7 @@ export default function LoginPage() {
       >
         <img
           className=" object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-          src={women_gif}
+          src={giphy}
           alt=""
           style={{
             borderRadius: "20px",
