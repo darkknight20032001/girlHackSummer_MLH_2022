@@ -6,7 +6,7 @@ const User = new mongoose.Schema({
   password: { type: String, required: true },
   active: { type: Boolean },
   travelArray: { transport: String, destination: String, booked: Boolean },
-  complaintArray: [{ dateComplaint: Number, complaint: String }],
+  complaintArray: [{ dateComplaint: String, complaint: String,status: String }],
 });
 const model = mongoose.model("UserData", User);
 module.exports = model;

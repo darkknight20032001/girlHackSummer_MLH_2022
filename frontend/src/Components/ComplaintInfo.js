@@ -65,7 +65,7 @@ const ComplaintInfo = ({ showModal, setShowModal }) => {
         {" "}
         Welcome {fName}{" "}
       </h1>
-      <br/>
+      <br />
       <h2>Lodge your complaint freely</h2>
 
       <form onSubmit={postComplaint}>

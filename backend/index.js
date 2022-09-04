@@ -66,8 +66,9 @@ app.post("/complaintInfo", async (req, res) => {
   await myDataBlog.save();
   const userData = await model.findOne({ email: req.body.email });
   userData.complaintArray.push({
-    dateComplaint: 2022,
+    dateComplaint: "4/9/2022",
     complaint: req.body.complaint,
+    status: "Pending",
   });
   await userData.save();
 
