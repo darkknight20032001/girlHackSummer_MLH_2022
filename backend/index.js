@@ -6,6 +6,7 @@ const model = require("./userModel");
 const modelBlog = require("./blogModel");
 const jwt = require("jsonwebtoken");
 const connectDB = require("./db");
+const path = require("path");
 app.use(cors());
 app.use(express.json());
 connectDB();
@@ -122,6 +123,17 @@ app.post("/travelEdit", async (req, res) => {
     return res.status(200).json({ status: "error" });
   }
 });
+// ---------------- deployment ------------------
+
+__dirname = path.resolve();
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "/frontend/build")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
+  });
+}
+
+// ---------------- deployment ------------------
 app.listen(5000, () => {
   console.log("listening on port 5000");
 });
